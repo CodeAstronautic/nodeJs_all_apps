@@ -1,0 +1,25 @@
+{
+  "name": "blog-nodejs",
+  "description": "Simple and easy to use blog template for your casual blogger.",
+  "version": "0.2.2",
+  "author": {
+    "name": "Pooja Mishra",
+    "email": "mishrapooja8128@gmail.com"
+   
+  },
+  "private": true,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  },
+  "scripts": {
+    "start": "node blog"
+  },
+  "dependencies": {
+    "express": "^3.0.0-rc5",
+    "jade": "0.28.2",
+    "mongodb": "1.2.14",
+    "mongoose": "3.6.5",
+    "rss": "0.0.4"
+  }
+}

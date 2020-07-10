@@ -1,0 +1,292 @@
+<%- include("header") -%>
+<div class="arrow">
+  <a href="#proj">
+    <i class="fas fa-chevron-down fa-2x" style="color: white;"></i>
+  </a>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:black">
+  <div class="container">
+
+
+
+    <!-- navbar -->
+    <a class="navbar-brand" href="#">
+      <img src="images/logow.png" alt="" style="width: 1.5rem;" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home
+
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proj" data-target=".navbar-collapse.in">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" data-target=".navbar-collapse.in">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link getintouchlink" style="font-weight:bold" data-target=".navbar-collapse.in"
+            href="#contact">Get in touch
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<!-- home -->
+<section id="homesec">
+  <video class="videobg" src="video/homevid.mp4" autoplay muted loop></video>
+  <div id="home">
+    <h1 class="home-title">
+      Hi, I'm Pooja Mishra
+    </h1>
+    <p class="home-text">
+     Python  // Web Developer // Competitive Programmmer
+      <br>Undergrad Student (CSE) at SVMIT
+    </p>
+    <!-- sociallinks -->
+    <div class="links">
+      <a target="_blank" class="home-icons" href="https://www.instagram.com/official._p.o.o.j.a._">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      <a target="_blank" class="home-icons" href="https://github.com/mPooja-15">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a target="_blank" class="home-icons home-icons-last" href="https://www.linkedin.com/in/mpooja15">
+        <i class="fab fa-linkedin-in fa-lg"></i>
+      </a>
+    </div>
+    <a class="btn btn-primary btn-lg homebtn" href="#contact">Say Pooja
+
+    </a>
+    <a class="btn btn-outline-light btn-lg homebtn" target="_blank"
+      href="https://drive.google.com/file/d/1qGMmLOFHxfVMbwvTfUH1TYnoELEqKwBE/view?usp=sharing">Resume
+      <i class="fas fa-download"></i>
+    </a>
+  </div>
+
+</section>
+
+<section id="container" class="bg-sec">
+
+  <section id="proj">
+    <h2 class="heading">Technical Projects</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/proj1devent.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">DEVENT</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">HTML</span>
+            <span class="badge badge-info">CSS (Bootstrap)</span>
+            <span class="badge badge-info">JS</span>
+            <span class="badge badge-info">Node.js</span>
+            <span class="badge badge-info">Express.js</span>
+            <span class="badge badge-info">Mongodb Atlas</span>
+          </div>
+          <p class="card-text">Digital Event management platform to prevent promotion spam in college Whatsapp
+            groups.
+          </p>
+          <div class="mt-auto">
+            <a href="" class="btn btn-primary  disabled">View Code</a>
+            <a href="" class="btn btn-outline-primary disabled">Live Preview</a>
+          </div>
+          <small id="emailHelp" class="text-muted">Working on in! Coming soon</small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/proj2agri.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">pyyt - Youtube Downloader</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">HTML</span>
+            <span class="badge badge-info">CSS</span>
+            <span class="badge badge-info">JS</span>
+            <span class="badge badge-info">Electron</span>
+            <span class="badge badge-info">Python</span>
+            <span class="badge badge-info">Express</span>
+          </div>
+          <p class="card-text">Cross OS desktop app for downloading youtube videos and playlists.</p>
+
+          <div class="mt-auto">
+            <a href="https://github.com/mPooja-15" target="_blank" class="btn btn-primary">View Code</a>
+            <a href="" class="btn btn-outline-primary disabled">Live Preview</a>
+          </div>
+          <small id="emailHelp" class="text-muted">Debugging bugs!</small>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+        <img src="images/proj3.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Campusbucks</h5>
+          <div style="margin-bottom: 10px;">
+            <span class="badge badge-info">REACT</span>
+            <span class="badge badge-info">Gatsby</span>
+            <span class="badge badge-info">SASS</span>
+            <span class="badge badge-info">Firebase</span>
+          </div>
+          <p class="card-text">Freelance based startup focused in Webdev, Design and Creative Writing.</p>
+          <div class="mt-auto">
+            <a href="#" target="_blank" class="btn btn-primary">View
+              UI/UX</a>
+          </div>
+          <small id="emailHelp" class="text-muted">Under Development</small>
+        </div>
+      </div>
+    </div>
+    <a target="_blank" href="https://github.com/mPooja-15" class=" btn btn-outline-primary projects-btn">View
+      More
+      Projects</a>
+
+    <h2 class="heading">Design Projects</h2>
+    <div class="card-deck">
+
+      <div class="card">
+        <img src="images/id.png" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">IEEE Rajasthan Subsection Congress (RSC 2020) ID Cards</h5>
+          <p class="card-text">RSC 2020 - Rajasthan Sub-Section Congress is an initiative by the IEEE Rajasthan
+            Sub-section to improve networking among the student branches.</p>
+          <div class="mt-auto">
+            <a target="_blank" href="#"
+              class="btn btn-primary">View Design</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/hoodies2.png" class="card-img-top" alt="...">
+        <div class="card-body  d-flex flex-column">
+          <h5 class="card-title">IAESTE LC MUJ Hoodie Design</h5>
+          <p class="card-text">Hoodie Design for the working team of
+            <a target="_blank" href="https://www.iaestemuj.in/index.php">IAESTE LC MUJ</a>.I also designed brochures,
+            posters and
+            business cards.
+          </p>
+          <div class="mt-auto">
+            <a target="_blank" href="https://www.behance.net/gallery/90899485/IAESTE-INDIA-LC-MUJ-Designs"
+              class="btn btn-primary">View Design</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/food.jpg" class="card-img-top" alt="...">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Tidbids - Innovation Challenge 3.0</h5>
+                 <div class="mt-auto">
+            <a target="_blank" href="https://www.behance.net/gallery/87923433/Tidbits-Innovation-Challenge"
+              class="btn btn-primary">View Design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a target="_blank" style="margin-bottom: 2rem;" href="https://www.behance.net/manavendrasen"
+      class=" btn btn-outline-primary projects-btn">View
+      More
+      Projects</a>
+
+
+
+  </section>
+
+</section>
+<section id="container">
+  <section id="about">
+    <h2 class="heading">About Me</h2>
+    <p class="home-text">
+      An individual who is eager to learn and explore new fields of life and technology, with good listening skills
+      and fast learning abilities. Being an undergraduate, I believe I can come up with fresh ideas and bring a new
+      perspective to the table. I am responsible and punctual. I work in an organized and meticulous way and can work
+      well under pressure.
+    </p>
+    <samp>
+      <pre>
+"me" : 
+{
+  "Name" : "Pooja Mishra",
+  
+  "College" : 
+  "Shri sad vidya mandal institute of technology",
+  
+  "Stream" : "computer engineering",
+  "Skills" : {
+    "Interest" :  ["ML",
+                  "Web Development (MERN)", 
+                  "UI/UX Design"],
+    "Languages" : ["C++", 
+                  "Python", "JavaScript",
+                  "MySQL","Java"],
+    "Softwares" : ["Photoshop", 
+                  "Illustrator", 
+                  "Git"]
+  }
+}
+
+        </pre>
+    </samp>
+  </section>
+</section>
+
+
+<section id="container" class="footer">
+  <h2 class="heading mapheading"  id="contact">Get in touch</h2>
+  <div class="row">
+    
+    <section class="col-md-6 map" ">
+      <!-- <h2 class="heading mapheading">Find me at</h2> -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.8771332080746!2d75.56424188013695!3d26.843859969430675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4850e05bee9b%3A0x1b8d67402d4eb863!2sManipal%20University%20Jaipur!5e0!3m2!1sen!2sin!4v1592770046560!5m2!1sen!2sin"
+        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    </section>
+    <section class="col-md-3" >
+      <!-- <h2 class="heading">Get in touch</h2> -->
+    
+      <form action="/" method="post">
+        <div class="form-group">
+          <label for="InputEmail1">Name</label>
+          <input name="iname" type="text" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="InputEmail">Email</label>
+          <input name="iemail" type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+            placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="FormControlTextarea">Message</label>
+          <textarea name="imessage" class="form-control" id="FormControlTextarea" rows="3" placeholder=""></textarea>
+        </div>
+        <button type="submit" class="submitbtn btn btn-primary btn-block">Submit</button>
+      </form>
+    </section>
+    
+    <section class="col-md-3 social-footer" >
+      
+      <ul class="social">
+        <li style="font-size: 1.5rem;font-weight: bold;">Socials</li>
+        <li>Email at: manavendra4288@gmail.com</li>
+        <li>Github: <a target="_blank" href="https://github.com/mPooja-15">github.com/mPOoja-15</a></li>
+        <li>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/manavendrasen">linkedin.com/in/mpooja15/</a></li>
+        <li>Youtube: <a target="_blank" href="https://www.youtube.com/channel/UCo4XgJ8MHvhMAPiNRMXqg-w?view_as=subscriber">Tech with P</a></li>
+        <li>Instagram: <a target="_blank" href="https://www.instagram.com/official._p.o.o.j.a._">@mp.com</a></li>
+        </ul>
+      
+      <div class="credit">
+        Made with 💙 by Pooja Mishra
+      </div>
+    </section>
+  </div>
+  
+</section>
+  <%- include("footer") -%>
