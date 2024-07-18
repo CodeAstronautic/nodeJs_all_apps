@@ -12,10 +12,10 @@
     "express-session": "^1.17.1",
     "express-validation": "^3.0.5",
     "mongoose": "^5.9.22",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
-    "socket.io": "^2.4.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {},
   "scripts": {
