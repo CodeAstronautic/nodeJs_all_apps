@@ -1,15 +1,12 @@
-# nodeJs_all_apps
+# NodeJs_All_Apps
 
 
-In this project  i have compeleted many project like student management api , crud api , user api and many things .
+In this project, I have completed several applications, including a Student Management API, CRUD API, User API, and many other functionalities. Additionally, I have created my own portfolio using React.
 
-i have made my own portfolio using react .
-
- need ##
- 
- 1. nodejs
- 2. mongodb
- 3. react 
- 4. html 
- 5. css 
- 
+Tech Stack
+Node.js
+MongoDB
+React
+HTML
+CSS
+This project showcases my skills in both backend and frontend development, demonstrating my proficiency in modern web technologies.
