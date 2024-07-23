@@ -18,8 +18,9 @@
   "dependencies": {
     "express": "^4.19.2",
     "jade": "0.28.2",
-    "mongodb": "1.2.14",
-    "mongoose": "5.13.20",
+    "mongodb": "3.1.13",
+    "mongoose": "3.6.5",
+
     "rss": "0.0.4"
   }
 }
