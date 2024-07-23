@@ -16,7 +16,7 @@
     "start": "node blog"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "jade": "0.28.2",
     "mongodb": "1.2.14",
     "mongoose": "5.13.20",
